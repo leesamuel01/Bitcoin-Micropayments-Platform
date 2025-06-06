@@ -180,7 +180,6 @@
     )
   )
 )
-
 ;; Send direct micropayment (without channel)
 (define-public (send-micropayment (recipient principal) (amount uint))
   (let (
