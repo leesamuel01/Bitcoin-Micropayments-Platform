@@ -300,7 +300,6 @@
 (define-read-only (get-platform-fee-rate)
   (var-get platform-fee-rate)
 )
-
 ;; Calculate fee for a given amount
 (define-read-only (calculate-payment-fee (amount uint))
   (calculate-fee amount)
