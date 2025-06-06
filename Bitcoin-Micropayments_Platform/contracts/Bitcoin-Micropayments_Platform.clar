@@ -218,7 +218,6 @@
     )
   )
 )
-
 ;; Close payment channel and distribute remaining balance
 (define-public (close-payment-channel 
   (recipient principal) 
