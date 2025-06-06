@@ -92,7 +92,6 @@
     (ok amount)
   )
 )
-
 ;; Withdraw funds from user balance
 (define-public (withdraw (amount uint))
   (let (
