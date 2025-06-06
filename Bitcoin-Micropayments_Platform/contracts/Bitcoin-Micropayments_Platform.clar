@@ -135,7 +135,6 @@
     (ok channel-id)
   )
 )
-
 ;; Send micropayment through existing channel
 (define-public (send-channel-payment 
   (recipient principal) 
