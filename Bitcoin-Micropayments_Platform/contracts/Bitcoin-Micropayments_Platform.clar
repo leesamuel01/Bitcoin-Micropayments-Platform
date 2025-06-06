@@ -103,7 +103,6 @@
     (ok amount)
   )
 )
-
 ;; Create a payment channel for batched micropayments
 (define-public (create-payment-channel 
   (recipient principal) 
